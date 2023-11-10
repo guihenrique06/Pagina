@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=cutive+mono&display=swap');
+body{
+    background-color: rgb(198, 198, 198);
+    margin: 0px;
+    padding: 0px;
+}
+.principal{
+    width: 360px;
+    height: 740px;
+    margin: auto;
+    background-color: gray;
+}
+.navegação{
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.botão{
+    color: black;
+    font-family: 'cutive mono', monospace;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.botão:hover{
+    color: sienna;
+    font-weight: bold;
+}
+.texto001{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'cutive mono', monospace;
+    text-align: center;
+    font-size: 30px;
+}
+.area001{
+    width: 90%;
+    height: 460px;
+    background-color: rgb(70, 69, 69);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.area002{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.texto002{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+/* x-large (Aplicacao para desktops, 1200px and up)*/ @media (min-width: 1200px) {
+    .principal{
+        width: 1000px;
+        height: 700px;
+    }
+
+.navegação{
+    width: 100%;
+}
+.texto001{
+    height: 250px;
+}
+.area001{
+    width: 900px;
+    height: 300px;
+    flex-direction: row;
+}
+.area002{
+    width: 40%;
+    height: 260px;
+}
+.texto002{
+    width: 40%;
+    height: 260px;
+}
+}
